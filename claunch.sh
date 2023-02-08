@@ -74,8 +74,6 @@ if [ -f "$dir/${file%.*}" ]; then
     fi
 fi
 
-
-
 #checking if file is cpp or c
 if [ ${file: -4} == ".cpp" ]; then
     if [ $gcc = false ]; then
