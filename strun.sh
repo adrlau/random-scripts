@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #takes a language and a a option for file or string. If needed it creates temporary files before it (if needed compiles and) runs the file.
 
 #IMPORTANT! do add a new language to all three arrays at the same time.
