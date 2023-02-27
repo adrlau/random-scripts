@@ -87,14 +87,14 @@ if [ ! -f "$file" ]; then
     exit 1
 fi
 
-#if print status
-echo "language: $language"
-echo "filetype: $filetype"
-echo "runner: $runner"
-echo "file: $file"
-echo "file content:" 
-cat $file
-echo ""
+##if print status
+#echo "language: $language"
+#echo "filetype: $filetype"
+#echo "runner: $runner"
+#echo "file: $file"
+#echo "file content:" 
+#cat $file
+#echo ""
 
 #run file
 eval $runner $file
